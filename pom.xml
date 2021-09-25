@@ -72,6 +72,15 @@
 			<scope>test</scope>
 		</dependency>
 
+		<!-- 热加载-->
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-devtools</artifactId>
+			<!--设置optional打包后不会引入该包-->
+			<optional>true</optional>
+			<!--<scope>true</scope>-->
+		</dependency>
+
 	</dependencies>
 
 
@@ -87,6 +96,9 @@
 						</goals>
 					</execution>
 				</executions>
+				<configuration>
+					<fork>true</fork><!-- 如果没有该配置，热部署的devtools不生效 -->
+				</configuration>
 			</plugin>
 		</plugins>
 	</build>

@@ -100,3 +100,8 @@ spring:
   config:
     activate:
       on-profile: local # 本地开发
+  devtools:
+    restart:
+      enabled: true #热加载生效
+      additional-paths: src/main/java #热加载监控目录
+      exclude: src/main/resources #该文件下的内容变动，不会出发热加载

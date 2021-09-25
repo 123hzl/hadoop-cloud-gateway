@@ -12,12 +12,12 @@ import org.springframework.context.annotation.Configuration;
  */
 @Configuration
 public class RouterInfos {
-
-	@Bean
-	public RouteLocator customRouteLocator(RouteLocatorBuilder builder) {
-		return builder.routes()
-				.route("register", r -> r.path("/rgst")
-						.uri("https://blog.csdn.net"))
-				.build();
-	}
+//
+//	@Bean
+//	public RouteLocator customRouteLocator(RouteLocatorBuilder builder) {
+//		return builder.routes()
+//				.route("register", r -> r.path("/rgst")
+//						.uri("https://www.jb51.net"))
+//				.build();
+//	}
 }
