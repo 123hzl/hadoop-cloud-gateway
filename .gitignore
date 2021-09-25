@@ -1,33 +1,55 @@
-HELP.md
+# maven ignore
 target/
-!.mvn/wrapper/maven-wrapper.jar
-!**/src/main/**/target/
-!**/src/test/**/target/
+*.versionsBackup
 
-### STS ###
-.apt_generated
-.classpath
-.factorypath
+# eclipse ignore
+.settings/
 .project
-.settings
-.springBeans
-.sts4-cache
+.classpath
 
-### IntelliJ IDEA ###
-.idea
-*.iws
-*.iml
+
+# idea ignore
+.idea/
 *.ipr
+*.iml
+*.iws
 
-### NetBeans ###
-/nbproject/private/
-/nbbuild/
-/dist/
-/nbdist/
-/.nb-gradle/
-build/
-!**/src/main/**/build/
-!**/src/test/**/build/
+# temp ignore
+*.log
+*.cache
+*.diff
+*.patch
+*.tmp
+*.rdb
+logs/
 
-### VS Code ###
-.vscode/
+# Package Files #
+*.jar
+*.war
+*.ear
+*.zip
+*.tar.gz
+*.rar
+*.tar
+
+# system ignore
+.DS_Store
+Thumbs.db
+
+.vscode
+
+# test case code
+**/Demo*.java
+
+#docker
+mysql/mysql_data/
+mysql/mysql_data_slave/
+
+#other
+mysql/mysql_data/
+mysql/mysql_data_slave/
+efk/elasticsearch/data
+efk/elasticsearch/log
+efk/filebeat/data
+efk/filebeat/logs
+efk/logstash/logs
