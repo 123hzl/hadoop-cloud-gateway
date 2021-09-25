@@ -1,0 +1,86 @@
+2020-07-16 14:32:08.208 [main] INFO  c.a.n.client.config.impl.LocalConfigInfoProcessor - LOCAL_SNAPSHOT_PATH:/Users/hzl/nacos/config
+2020-07-16 14:32:08.228 [main] INFO  com.alibaba.nacos.client.config.impl.Limiter - limitTime:5.0
+2020-07-16 14:32:08.648 [main] INFO  o.s.c.b.c.PropertySourceBootstrapConfiguration - Located property source: [BootstrapPropertySource {name='bootstrapProperties-hzl-gateway-local.properties,DEFAULT_GROUP'}, BootstrapPropertySource {name='bootstrapProperties-hzl-gateway.properties,DEFAULT_GROUP'}, BootstrapPropertySource {name='bootstrapProperties-hzl-gateway,DEFAULT_GROUP'}]
+2020-07-16 14:32:08.707 [main] INFO  com.hzl.gateway.GatewayApplication - The following profiles are active: local
+2020-07-16 14:32:09.585 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-07-16 14:32:09.585 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-07-16 14:32:09.596 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 4ms. Found 0 JPA repository interfaces.
+2020-07-16 14:32:09.614 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-07-16 14:32:09.615 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-07-16 14:32:09.624 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 1ms. Found 0 Redis repository interfaces.
+2020-07-16 14:32:09.855 [main] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=8774fa4e-90b8-3cf4-8a2c-28c408059720
+2020-07-16 14:32:10.620 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'spring.cloud.sentinel-com.alibaba.cloud.sentinel.SentinelProperties' of type [com.alibaba.cloud.sentinel.SentinelProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-07-16 14:32:10.790 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.alibaba.cloud.sentinel.custom.SentinelAutoConfiguration' of type [com.alibaba.cloud.sentinel.custom.SentinelAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-07-16 14:32:11.247 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2020-07-16 14:32:11.317 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2020-07-16 14:32:11.318 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-07-16 14:32:11.319 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-07-16 14:32:11.540 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-07-16 14:32:11.541 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2817 ms
+2020-07-16 14:32:11.662 [main] INFO  com.hzl.cloud.config.mybatis.MultiDataSourceConfig - 注入主数据源
+2020-07-16 14:32:12.117 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2020-07-16 14:32:12.154 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-07-16 14:32:12.271 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.12.Final
+2020-07-16 14:32:12.378 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-07-16 14:32:12.487 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2020-07-16 14:32:12.654 [main] INFO  o.h.e.t.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-07-16 14:32:12.661 [main] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-07-16 14:32:12.676 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-07-16 14:32:12.679 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-07-16 14:32:12.944 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-07-16 14:32:13.010 [main] INFO  c.a.cloud.sentinel.SentinelWebAutoConfiguration - [Sentinel Starter] register SentinelWebInterceptor with urlPatterns: [/**].
+2020-07-16 14:32:13.156 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler - Initializing ExecutorService 'Nacso-Watch-Task-Scheduler'
+2020-07-16 14:32:13.165 [main] INFO  com.alibaba.nacos.client.naming - initializer namespace from System Property :null
+2020-07-16 14:32:13.165 [main] INFO  com.alibaba.nacos.client.naming - initializer namespace from System Environment :null
+2020-07-16 14:32:13.165 [main] INFO  com.alibaba.nacos.client.naming - initializer namespace from System Property :null
+2020-07-16 14:32:13.215 [main] INFO  com.hzl.cloud.config.mybatis.MultiDataSourceConfig - 注入slave1数据源
+2020-07-16 14:32:13.231 [main] INFO  com.hzl.cloud.config.mybatis.MultiDataSourceConfig - 启动多数据源
+2020-07-16 14:32:13.244 [main] INFO  t.mybatis.mapper.autoconfigure.MapperCacheDisabler - Clear tk.mybatis.mapper.util.MsUtil CLASS_CACHE cache.
+2020-07-16 14:32:13.244 [main] INFO  t.mybatis.mapper.autoconfigure.MapperCacheDisabler - Clear tk.mybatis.mapper.genid.GenIdUtil CACHE cache.
+2020-07-16 14:32:13.244 [main] INFO  t.mybatis.mapper.autoconfigure.MapperCacheDisabler - Clear tk.mybatis.mapper.version.VersionUtil CACHE cache.
+2020-07-16 14:32:13.246 [main] INFO  t.mybatis.mapper.autoconfigure.MapperCacheDisabler - Clear EntityHelper entityTableMap cache.
+2020-07-16 14:32:13.863 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2020-07-16 14:32:13.895 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2020-07-16 14:32:13.897 [main] INFO  com.alibaba.nacos.client.naming - [BEAT] adding beat: {"cluster":"DEFAULT","ip":"10.39.137.182","metadata":{"preserved.register.source":"SPRING_CLOUD"},"period":5000,"port":8080,"scheduled":false,"serviceName":"DEFAULT_GROUP@@hzl-gateway","stopped":false,"weight":1.0} to beat map.
+2020-07-16 14:32:13.961 [main] INFO  com.alibaba.nacos.client.naming - [REGISTER-SERVICE] public registering service DEFAULT_GROUP@@hzl-gateway with instance: {"clusterName":"DEFAULT","enabled":true,"ephemeral":true,"healthy":true,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"ip":"10.39.137.182","ipDeleteTimeout":30000,"metadata":{"preserved.register.source":"SPRING_CLOUD"},"port":8080,"weight":1.0}
+2020-07-16 14:32:14.027 [main] INFO  c.a.cloud.nacos.registry.NacosServiceRegistry - nacos registry, DEFAULT_GROUP hzl-gateway 10.39.137.182:8080 register finished
+2020-07-16 14:32:14.031 [main] INFO  com.hzl.gateway.GatewayApplication - Started GatewayApplication in 7.219 seconds (JVM running for 8.515)
+2020-07-16 14:32:14.034 [main] INFO  com.alibaba.nacos.client.config.impl.ClientWorker - [fixed-localhost_8848] [subscribe] hzl-gateway.properties+DEFAULT_GROUP
+2020-07-16 14:32:14.035 [main] INFO  com.alibaba.nacos.client.config.impl.CacheData - [fixed-localhost_8848] [add-listener] ok, tenant=, dataId=hzl-gateway.properties, group=DEFAULT_GROUP, cnt=1
+2020-07-16 14:32:14.035 [main] INFO  com.alibaba.nacos.client.config.impl.ClientWorker - [fixed-localhost_8848] [subscribe] hzl-gateway+DEFAULT_GROUP
+2020-07-16 14:32:14.035 [main] INFO  com.alibaba.nacos.client.config.impl.CacheData - [fixed-localhost_8848] [add-listener] ok, tenant=, dataId=hzl-gateway, group=DEFAULT_GROUP, cnt=1
+2020-07-16 14:32:14.035 [main] INFO  com.alibaba.nacos.client.config.impl.ClientWorker - [fixed-localhost_8848] [subscribe] hzl-gateway-local.properties+DEFAULT_GROUP
+2020-07-16 14:32:14.035 [main] INFO  com.alibaba.nacos.client.config.impl.CacheData - [fixed-localhost_8848] [add-listener] ok, tenant=, dataId=hzl-gateway-local.properties, group=DEFAULT_GROUP, cnt=1
+2020-07-16 14:32:14.323 [com.alibaba.nacos.client.Worker.longPolling.fixed-localhost_8848] INFO  com.alibaba.nacos.client.config.impl.ClientWorker - get changedGroupKeys:[]
+2020-07-16 14:32:43.981 [com.alibaba.nacos.client.Worker.longPolling.fixed-localhost_8848] INFO  com.alibaba.nacos.client.config.impl.ClientWorker - get changedGroupKeys:[]
+2020-07-16 14:33:13.503 [com.alibaba.nacos.client.Worker.longPolling.fixed-localhost_8848] INFO  com.alibaba.nacos.client.config.impl.ClientWorker - get changedGroupKeys:[]
+2020-07-16 14:33:43.020 [com.alibaba.nacos.client.Worker.longPolling.fixed-localhost_8848] INFO  com.alibaba.nacos.client.config.impl.ClientWorker - get changedGroupKeys:[]
+2020-07-16 14:34:12.531 [com.alibaba.nacos.client.Worker.longPolling.fixed-localhost_8848] INFO  com.alibaba.nacos.client.config.impl.ClientWorker - get changedGroupKeys:[]
+2020-07-16 14:34:42.049 [com.alibaba.nacos.client.Worker.longPolling.fixed-localhost_8848] INFO  com.alibaba.nacos.client.config.impl.ClientWorker - get changedGroupKeys:[]
+2020-07-16 14:35:11.574 [com.alibaba.nacos.client.Worker.longPolling.fixed-localhost_8848] INFO  com.alibaba.nacos.client.config.impl.ClientWorker - get changedGroupKeys:[]
+2020-07-16 14:35:41.087 [com.alibaba.nacos.client.Worker.longPolling.fixed-localhost_8848] INFO  com.alibaba.nacos.client.config.impl.ClientWorker - get changedGroupKeys:[]
+2020-07-16 14:36:10.604 [com.alibaba.nacos.client.Worker.longPolling.fixed-localhost_8848] INFO  com.alibaba.nacos.client.config.impl.ClientWorker - get changedGroupKeys:[]
+2020-07-16 14:36:40.121 [com.alibaba.nacos.client.Worker.longPolling.fixed-localhost_8848] INFO  com.alibaba.nacos.client.config.impl.ClientWorker - get changedGroupKeys:[]
+2020-07-16 14:37:09.642 [com.alibaba.nacos.client.Worker.longPolling.fixed-localhost_8848] INFO  com.alibaba.nacos.client.config.impl.ClientWorker - get changedGroupKeys:[]
+2020-07-16 14:37:39.153 [com.alibaba.nacos.client.Worker.longPolling.fixed-localhost_8848] INFO  com.alibaba.nacos.client.config.impl.ClientWorker - get changedGroupKeys:[]
+2020-07-16 14:38:08.664 [com.alibaba.nacos.client.Worker.longPolling.fixed-localhost_8848] INFO  com.alibaba.nacos.client.config.impl.ClientWorker - get changedGroupKeys:[]
+2020-07-16 14:38:38.175 [com.alibaba.nacos.client.Worker.longPolling.fixed-localhost_8848] INFO  com.alibaba.nacos.client.config.impl.ClientWorker - get changedGroupKeys:[]
+2020-07-16 14:39:07.693 [com.alibaba.nacos.client.Worker.longPolling.fixed-localhost_8848] INFO  com.alibaba.nacos.client.config.impl.ClientWorker - get changedGroupKeys:[]
+2020-07-16 14:39:37.214 [com.alibaba.nacos.client.Worker.longPolling.fixed-localhost_8848] INFO  com.alibaba.nacos.client.config.impl.ClientWorker - get changedGroupKeys:[]
+2020-07-16 14:40:06.727 [com.alibaba.nacos.client.Worker.longPolling.fixed-localhost_8848] INFO  com.alibaba.nacos.client.config.impl.ClientWorker - get changedGroupKeys:[]
+2020-07-16 14:40:36.241 [com.alibaba.nacos.client.Worker.longPolling.fixed-localhost_8848] INFO  com.alibaba.nacos.client.config.impl.ClientWorker - get changedGroupKeys:[]
+2020-07-16 14:41:05.752 [com.alibaba.nacos.client.Worker.longPolling.fixed-localhost_8848] INFO  com.alibaba.nacos.client.config.impl.ClientWorker - get changedGroupKeys:[]
+2020-07-16 14:41:35.263 [com.alibaba.nacos.client.Worker.longPolling.fixed-localhost_8848] INFO  com.alibaba.nacos.client.config.impl.ClientWorker - get changedGroupKeys:[]
+2020-07-16 14:42:04.770 [com.alibaba.nacos.client.Worker.longPolling.fixed-localhost_8848] INFO  com.alibaba.nacos.client.config.impl.ClientWorker - get changedGroupKeys:[]
+2020-07-16 14:42:34.282 [com.alibaba.nacos.client.Worker.longPolling.fixed-localhost_8848] INFO  com.alibaba.nacos.client.config.impl.ClientWorker - get changedGroupKeys:[]
+2020-07-16 14:43:03.803 [com.alibaba.nacos.client.Worker.longPolling.fixed-localhost_8848] INFO  com.alibaba.nacos.client.config.impl.ClientWorker - get changedGroupKeys:[]
+2020-07-16 14:43:33.322 [com.alibaba.nacos.client.Worker.longPolling.fixed-localhost_8848] INFO  com.alibaba.nacos.client.config.impl.ClientWorker - get changedGroupKeys:[]
+2020-07-16 14:44:02.841 [com.alibaba.nacos.client.Worker.longPolling.fixed-localhost_8848] INFO  com.alibaba.nacos.client.config.impl.ClientWorker - get changedGroupKeys:[]
+2020-07-16 14:44:32.357 [com.alibaba.nacos.client.Worker.longPolling.fixed-localhost_8848] INFO  com.alibaba.nacos.client.config.impl.ClientWorker - get changedGroupKeys:[]
+2020-07-16 14:45:01.874 [com.alibaba.nacos.client.Worker.longPolling.fixed-localhost_8848] INFO  com.alibaba.nacos.client.config.impl.ClientWorker - get changedGroupKeys:[]
+2020-07-16 14:45:31.391 [com.alibaba.nacos.client.Worker.longPolling.fixed-localhost_8848] INFO  com.alibaba.nacos.client.config.impl.ClientWorker - get changedGroupKeys:[]
+2020-07-16 14:46:00.912 [com.alibaba.nacos.client.Worker.longPolling.fixed-localhost_8848] INFO  com.alibaba.nacos.client.config.impl.ClientWorker - get changedGroupKeys:[]
+2020-07-16 14:46:30.426 [com.alibaba.nacos.client.Worker.longPolling.fixed-localhost_8848] INFO  com.alibaba.nacos.client.config.impl.ClientWorker - get changedGroupKeys:[]
+2020-07-16 14:46:59.941 [com.alibaba.nacos.client.Worker.longPolling.fixed-localhost_8848] INFO  com.alibaba.nacos.client.config.impl.ClientWorker - get changedGroupKeys:[]
+2020-07-16 14:47:29.469 [com.alibaba.nacos.client.Worker.longPolling.fixed-localhost_8848] INFO  com.alibaba.nacos.client.config.impl.ClientWorker - get changedGroupKeys:[]
+2020-07-16 14:47:58.983 [com.alibaba.nacos.client.Worker.longPolling.fixed-localhost_8848] INFO  com.alibaba.nacos.client.config.impl.ClientWorker - get changedGroupKeys:[]

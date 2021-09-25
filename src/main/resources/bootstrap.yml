@@ -1,0 +1,26 @@
+#服务端口号
+server:
+  port: 8080
+
+spring:
+  application:
+    name: hzl-gateway
+  cloud:
+    #注册中心
+    nacos:
+      discovery:
+        server-addr: 127.0.0.1:8848
+#禁止eureka作为注册中心
+eureka:
+  client:
+    enabled: false
+
+management:
+  port: 8881
+  endpoints:
+    web:
+      exposure:
+        include: '*'
+
+hadoop:
+  openMulti: true #是否开启多数据源

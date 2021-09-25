@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<parent>
+		<groupId>com.hzl.cloud</groupId>
+		<artifactId>hadoopcloud-parent</artifactId>
+		<version>2.0-SNAPSHOT</version>
+	</parent>
+
+	<groupId>com.hzl.cloud</groupId>
+	<artifactId>hadoop-cloud-gateway</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<name>gateway</name>
+	<description>spring cloud gateway</description>
+
+	<properties>
+		<hzl.mybatis.plug>0.0.1-SNAPSHOT</hzl.mybatis.plug>
+	</properties>
+
+
+	<dependencies>
+		<!--集成注册发现，统一配置和限流-->
+		<!--<dependency>-->
+			<!--<groupId>com.alibaba.cloud</groupId>-->
+			<!--<artifactId>spring-cloud-starter-alibaba-nacos-config</artifactId>-->
+		<!--</dependency>-->
+		<dependency>
+			<groupId>com.alibaba.cloud</groupId>
+			<artifactId>spring-cloud-starter-alibaba-nacos-discovery</artifactId>
+		</dependency>
+		<!--<dependency>-->
+			<!--<groupId>com.alibaba.cloud</groupId>-->
+			<!--<artifactId>spring-cloud-starter-alibaba-sentinel</artifactId>-->
+		<!--</dependency>-->
+
+		<!--集成自定义多数据源插件-->
+		<dependency>
+			<groupId>com.hzl.cloud</groupId>
+			<artifactId>mybatis-starter</artifactId>
+			<version>${hzl.mybatis.plug}</version>
+		</dependency>
+
+		<!--集成路由转发-->
+		<dependency>
+			<groupId>org.springframework.cloud</groupId>
+			<artifactId>spring-cloud-starter-gateway</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework.cloud</groupId>
+			<artifactId>spring-cloud-starter-loadbalancer</artifactId>
+		</dependency>
+
+
+		<!--<dependency>-->
+			<!--<groupId>org.springframework.cloud</groupId>-->
+			<!--<artifactId>spring-cloud-starter-netflix-hystrix</artifactId>-->
+		<!--</dependency>-->
+		<!--<dependency>-->
+			<!--<groupId>org.springframework.cloud</groupId>-->
+			<!--<artifactId>spring-cloud-starter-contract-stub-runner</artifactId>-->
+			<!--<exclusions>-->
+				<!--<exclusion>-->
+					<!--<artifactId>spring-boot-starter-web</artifactId>-->
+					<!--<groupId>org.springframework.boot</groupId>-->
+				<!--</exclusion>-->
+			<!--</exclusions>-->
+		<!--</dependency>-->
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-test</artifactId>
+			<scope>test</scope>
+		</dependency>
+
+	</dependencies>
+
+
+	<build>
+		<plugins>
+			<plugin>
+				<groupId>org.springframework.boot</groupId>
+				<artifactId>spring-boot-maven-plugin</artifactId>
+				<executions>
+					<execution>
+						<goals>
+							<goal>repackage</goal>
+						</goals>
+					</execution>
+				</executions>
+			</plugin>
+		</plugins>
+	</build>
+
+
+
+</project>
