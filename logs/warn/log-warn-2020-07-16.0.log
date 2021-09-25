@@ -1,9 +1,0 @@
-2020-07-16 14:32:08.621 [main] WARN  c.a.cloud.nacos.client.NacosPropertySourceBuilder - Ignore the empty nacos configuration and get it based on dataId[hzl-gateway] & group[DEFAULT_GROUP]
-2020-07-16 14:32:08.640 [main] WARN  c.a.cloud.nacos.client.NacosPropertySourceBuilder - Ignore the empty nacos configuration and get it based on dataId[hzl-gateway.properties] & group[DEFAULT_GROUP]
-2020-07-16 14:32:08.647 [main] WARN  c.a.cloud.nacos.client.NacosPropertySourceBuilder - Ignore the empty nacos configuration and get it based on dataId[hzl-gateway-local.properties] & group[DEFAULT_GROUP]
-2020-07-16 14:32:09.522 [main] WARN  tk.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.hzl.gateway]' package. Please check your configuration.
-2020-07-16 14:32:09.723 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.hzl.gateway]' package. Please check your configuration.
-2020-07-16 14:32:12.676 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
-2020-07-16 14:32:12.679 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
-2020-07-16 14:32:12.732 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2020-07-16 14:32:13.316 [main] WARN  org.mybatis.spring.SqlSessionFactoryBean - Property 'mapperLocations' was specified but matching resources are not found.
