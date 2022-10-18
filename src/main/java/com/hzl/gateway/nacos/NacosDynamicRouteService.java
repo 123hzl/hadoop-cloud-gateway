@@ -122,8 +122,13 @@ public class NacosDynamicRouteService implements ApplicationEventPublisherAware 
 	private RouteDefinition convertToRouteDefinition(ServiceInstance serviceInstance){
 		RouteDefinition routeDefinition=new RouteDefinition();
 		routeDefinition.setId(serviceInstance.getServiceId());
+		//设置断言
 		routeDefinition.setPredicates(RegisterPredicate.getList());
+		//设置路径
 		routeDefinition.setUri(serviceInstance.getUri());
+
+		//设置拦截器，暂时没弄todo
+		//routeDefinition.setFilters(null);
 		return routeDefinition;
 	}
 }

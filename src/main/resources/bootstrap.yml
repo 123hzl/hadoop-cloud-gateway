@@ -23,4 +23,4 @@ management:
         include: '*'
 
 hadoop:
-  openMulti: true #是否开启多数据源
+  openMulti: true #是否开启多数据源,已经不在使用自己开发的多数据源组建，改用mybatis-plus的，其他项目已经更改，gateway暂时没弄 todo
