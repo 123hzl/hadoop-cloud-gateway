@@ -127,7 +127,7 @@ public class NacosDynamicRouteService implements ApplicationEventPublisherAware 
 		//设置路径
 		routeDefinition.setUri(serviceInstance.getUri());
 
-		//设置拦截器，暂时没弄todo
+		//设置拦截器，暂时没弄todo，如果写到这里，说明改路由市局部路由，只针对改服务
 		//routeDefinition.setFilters(null);
 		return routeDefinition;
 	}
